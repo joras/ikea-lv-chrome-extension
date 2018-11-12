@@ -1,0 +1,24 @@
+{
+  "name": "ikealv",
+  "version": "1.0.0",
+  "description": "Chrome extension for fetching prices from Ikea LV",
+  "main": "",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js"
+  },
+  "author": "Jaan Oras",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "~0.0.72",
+    "@types/jquery": "~3.3.1",
+    "ts-loader": "~5.0.0",
+    "typescript": "~3.0.3",
+    "webpack": "~4.17.2",
+    "webpack-cli": "~3.1.0",
+    "webpack-merge": "~4.1.4"
+  }
+}

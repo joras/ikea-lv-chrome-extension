@@ -1,0 +1,30 @@
+{
+  "name": "IKEA Finland to Latvia",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Fetch prices and inventory from IKEA Latvia to other IKEA sites",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://*.ikea.lv/*",
+    "https://*.ikea.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ikea.com/webapp/wcs/stores/servlet/InterestItemDisplay*"
+      ],
+      "js": [
+        "js/vendor.js",
+        "js/content_script.js"
+      ],
+      "css": [
+        "css/inject.css"
+      ]
+    }
+  ]
+}

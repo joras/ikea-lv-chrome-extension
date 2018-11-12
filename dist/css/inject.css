@@ -1,0 +1,23 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+body #allContent {
+    width: 132.5em;
+}
+
+body #allContent #mainPadding {
+    width: 130.417em;
+}
+
+#main #shoppingList .rightContent {
+    width: 93.87em;
+}
+
+#shoppingList .latPrice .more {
+    color: red;
+}
+
+#shoppingList .latPrice .less {
+    color: green;
+}
