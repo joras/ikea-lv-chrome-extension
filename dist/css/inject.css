@@ -18,6 +18,14 @@ body #allContent #mainPadding {
     color: red;
 }
 
+#shoppingList .latPrice .notavail {
+    color: gray;
+}
+
 #shoppingList .latPrice .less {
     color: green;
+}
+
+.prodDiff {
+    font-size: 0.8em;
 }
