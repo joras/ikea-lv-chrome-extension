@@ -3,6 +3,9 @@
 Extension for Chrome that extends IKEA Finland(or any other country that uses the default IKEA page) shopping list 
 page with prices and info from IKEA Latvia.
 
+
+![screenshot][Screenshot.png]
+
 ## Background
 
 IKEA has different prices in different countries, but in the case of Latvia, it also has a separate and different webpage that
