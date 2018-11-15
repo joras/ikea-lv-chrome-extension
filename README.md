@@ -4,7 +4,7 @@ Extension for Chrome that extends IKEA Finland(or any other country that uses th
 page with prices and info from IKEA Latvia.
 
 
-![screenshot][Screenshot.png]
+![screenshot](Screenshot.png)
 
 ## Background
 
